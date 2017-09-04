@@ -1,5 +1,5 @@
 NAME="automake1.15"
-VERSION=1.15
+VERSION=1.15.1
 RELEASE=1
 CATEGORY="Devel"
 SUMMARY="(1.15) a tool for generating GNU-compliant Makefiles"
