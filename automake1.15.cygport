@@ -1,6 +1,6 @@
 NAME="automake1.15"
 VERSION=1.15.1
-RELEASE=1
+RELEASE=2
 CATEGORY="Devel"
 SUMMARY="(1.15) a tool for generating GNU-compliant Makefiles"
 DESCRIPTION="This is Automake, a Makefile generator.  It was inspired by the
@@ -46,9 +46,9 @@ src_install() {
 	rm -f ${D}/usr/bin/automake ${D}/usr/bin/aclocal
 
 	# remove the unversioned info and man pages (when no longer newest version)
-#	rm -f ${D}/usr/share/aclocal/README
-#	rm -f ${D}/usr/share/info/automake.*
-#	rm -f ${D}/usr/share/info/automake-history.*
-#	rm -f ${D}/usr/share/man/man1/automake.1
-#	rm -f ${D}/usr/share/man/man1/aclocal.1
+	rm -f ${D}/usr/share/aclocal/README
+	rm -f ${D}/usr/share/info/automake.*
+	rm -f ${D}/usr/share/info/automake-history.*
+	rm -f ${D}/usr/share/man/man1/automake.1
+	rm -f ${D}/usr/share/man/man1/aclocal.1
 }
